@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mount Zion Multipurpose Centre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images\favicon-32x32.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("RE4qb57-2FaQEvA2x"); 
+        })();
+    </script>
+</head>
+<body>
+    <div id="particles"></div>
+    <header>
+        <nav class="main-nav" aria-label="Main navigation">
+            <div class="logo">
+                <a href="index.html">
+                    <figure class="header-logo">
+                        <img src="images/logomz.png" alt="Mount Zion Multipurpose Centre Logo" class="header-logo-img">
+                        <figcaption>Mount Zion Multipurpose Centre</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="mission-vision.html" class="nav-link"><i class="fas fa-cross"></i> Mission</a></li>
+                <li><a href="values-objectives.html" class="nav-link"><i class="fas fa-heart"></i> Values</a></li>
+                <li><a href="contact.html" class="nav-link active"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/16HNBoqRdX/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.instagram.com/mtzionmultipurpose?igsh=MW5pNjlxMjVxZnY4cg==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="hamburger" id="hamburger" aria-label="Menu toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero"></div>
+    </header>
+
+    <main class="container">
+        <section id="contact" class="content-section reveal">
+            <div class="grid">
+                <div class="text">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions, ideas, or want to join our efforts? Reach out to us—we’re here to help and collaborate!</p>
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Name" required aria-label="Name">
+                        <input type="email" name="email" placeholder="Email" required aria-label="Email">
+                        <textarea name="message" placeholder="Message" required aria-label="Message"></textarea>
+                        <button type="submit" id="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="loader" style="display: none;"><i class="fas fa-spinner fa-spin"></i></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="image">
+                    <img src="images/z6.jpg" alt="Team discussing community plans" loading="lazy">
+                </div>
+            </div>
+            <div class="wave-divider"></div>
+        </section>
+
+        <section id="why-contact" class="content-section reveal">
+            <div class="text" style="text-align: center;">
+                <h2>Why Us?</h2>
+                <p>Whether you’re seeking support, offering partnership, or eager to volunteer, your voice matters. 
+                    Together, we can advance our mission of accessible healthcare, poverty reduction, and empowerment. Reach out today to be part of the change!
+                </p>
+            </div>
+            <div class="wave-divider"></div>
+        </section>
+    </main>
+
+    <!-- Modal for Feedback -->
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <span id="modal-close" class="modal-close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <figure class="footer-logo">
+                    <img src="images/mount zion.jpg" alt="Mount Zion Multipurpose Centre Logo" class="footer-logo-img">
+                    <figcaption>Mount Zion Multi Purpose Centre</figcaption>
+                </figure>
+                <p>"The City of the Living God"</p>
+            </div>
+            <div class="footer-column">
+                <h3><i class="fas fa-link"></i> Quick Links</h3>
+                <ul>
+                    <li><a href="mission-vision.html">Mission & Vision</a></li>
+                    <li><a href="values-objectives.html">Values & Objectives</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3><i class="fas fa-info-circle"></i> Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> Email: vuyiseka75@gmail.com</p>
+                <p><i class="fas fa-phone"></i> Phone: +27 64 684 5438 | +27 60 301 3364</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: 140 King Street, Bongweni, Mthatha</p>
+            </div>
+            <div class="footer-column">
+                <h3><i class="fas fa-share-alt"></i> Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/16HNBoqRdX/" aria-label="Facebook" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mtzionmultipurpose?igsh=MW5pNjlxMjVxZnY4cg==" aria-label="Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 Mount Zion Multipurpose Centre</p>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
